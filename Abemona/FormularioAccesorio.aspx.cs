@@ -72,6 +72,7 @@ namespace Abemona
         protected void txtImagen_TextChanged(object sender, EventArgs e)
         {
             imgArticulos.ImageUrl = txtImagen.Text;
+
         }
 
        

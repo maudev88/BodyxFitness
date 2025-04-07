@@ -239,7 +239,7 @@
                         <asp:Button Text="Actualizar Imagen" CssClass="btn btn-success botonn botonVerde" Style="margin-bottom: 40px;" runat="server" ID="btnImagen" OnClick="btnImagen_Click" />
 
                         <asp:Image ImageUrl="https://www.generationsforpeace.org/wp-content/uploads/2018/03/empty-300x240.jpg"
-                            runat="server" ID="imgArticulos" CssClass="mb-xxl-4 imagen" Style="max-height: 484px;" />
+                            runat="server" ID="imgArticulos" CssClass="mb-xxl-4 imagen"  />  <%--Style="max-height: 484px;"--%>
                     </div>
 
                 </div>
