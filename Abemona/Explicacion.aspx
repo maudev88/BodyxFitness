@@ -31,7 +31,7 @@
         <h1>Explicación de la Página</h1>
         <div class="imagenDiv" style="width: 70%; text-align: center;">
 
-            <a href="https://www.youtube.com/watch?v=NNHLeMjgOSU" target="_blank"><img src="Imagenes/video.jpg" alt="Alternate Text" style="width: 70%;" class="imagen" /></a> 
+            <a href="https://www.youtube.com/watch?v=Ghr2BCWU2aw" target="_blank"><img src="Imagenes/video.jpg" alt="Alternate Text" style="width: 70%;" class="imagen" /></a> 
             
 
            <%-- <video controls="controls">
