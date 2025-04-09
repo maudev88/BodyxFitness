@@ -151,7 +151,7 @@
                 </div>
             </div>
             <div class="divColor" id="loUltimo" style="font-family: Arial, Helvetica, sans-serif; font-weight: bolder; font-weight: bolder; text-align: center; background-color: black; padding-bottom: 16px; margin: 0;">
-                © 2025 BODYX FITNESS. Todos los derechos reservados. Diseñado por Mauro Etchegoyen
+                © 2025 BODYX FITNESS. Todos los derechos reservados.
             </div>
         </footer>
 
