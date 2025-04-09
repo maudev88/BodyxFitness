@@ -29,35 +29,22 @@ namespace Abemona
 
             try
             {
-                    usuario.Email = txtEmail.Text;
-                    usuario.Pass = txtPassword.Text;
+                usuario.Email = txtEmail.Text;
+                usuario.Pass = txtPassword.Text;
 
-                    if (negocio.Login(usuario))
-                    {
-                    //    Session.Add("usuario", usuario);
-                    //Session.Add("accesorio", accesorio);
-                    //Response.Redirect("MiPerfil.aspx", false);
+                if (negocio.Login(usuario))
+                {
+                    Session.Add("usuario", usuario);
+                    Session.Add("accesorio", accesorio);
+                    Response.Redirect("MiPerfil.aspx", false);
 
-                     if (usuario.Email == "bodyxfitness@hotmail.com" && usuario.Pass == "contra1234")
-                       {
-                        Session.Add("usuario", usuario);
-                        Session.Add("accesorio", accesorio);
-                        Response.Redirect("Explicacion.aspx", false);
-                       }
-                        else 
-                        {
-                        Session.Add("usuario", usuario);
-                        Session.Add("accesorio", accesorio);
-                        Response.Redirect("MiPerfil.aspx", false);
-                        }
+                }
+                else
+                {
+                    Session.Add("error", "User o Pass incorrectos");
+                    Response.Redirect("Error.aspx", false);
+                }
 
-                    }
-                    else
-                    {
-                        Session.Add("error", "User o Pass incorrectos");
-                        Response.Redirect("Error.aspx", false);
-                    }
-                
 
 
             }

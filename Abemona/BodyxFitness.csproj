@@ -77,7 +77,6 @@
     <Content Include="Default.aspx" />
     <Content Include="Detalle.aspx" />
     <Content Include="Error.aspx" />
-    <Content Include="Explicacion.aspx" />
     <Content Include="FavProductos.aspx" />
     <Content Include="Favoritos.aspx" />
     <Content Include="FavUsuarios.aspx" />
@@ -161,13 +160,6 @@
     </Compile>
     <Compile Include="Error.aspx.designer.cs">
       <DependentUpon>Error.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Explicacion.aspx.cs">
-      <DependentUpon>Explicacion.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Explicacion.aspx.designer.cs">
-      <DependentUpon>Explicacion.aspx</DependentUpon>
     </Compile>
     <Compile Include="FavProductos.aspx.cs">
       <DependentUpon>FavProductos.aspx</DependentUpon>

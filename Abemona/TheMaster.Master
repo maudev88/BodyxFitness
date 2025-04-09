@@ -171,7 +171,6 @@
                     <div class="navbar-nav elNav">
                         <a class="nav-link" href="Default.aspx">Inicio</a>
                         <a class="nav-link" href="Nosotros.aspx">Nosotros</a>
-                        <%--<a class="nav-link" href="Coleccion.aspx">Colección</a>--%>
                         <a class="nav-link" href="Blog.aspx">Blog</a>
                         <a class="nav-link" href="Contacto.aspx">Contacto</a>
                         <% if (Negocio.Seguridad.sesionActiva(Session["usuario"]))
@@ -186,7 +185,6 @@
                         <a class="nav-link" href="Mensajes.aspx">Mensajes</a>
                         <a class="nav-link" href="FavProductos.aspx">FavProductos</a>
                         <a class="nav-link" href="FavUsuarios.aspx">FavUsuarios</a>
-                        <a class="nav-link" href="Explicacion.aspx">Explicación</a>
                         <%
                             } %>
                     </div>
@@ -213,10 +211,10 @@
             </div>
         </nav>
 
-      <%--  <div>
+        <div>
             <a href="https://maudev88.github.io/Portfolio/" target="_blank">
                 <img src="Imagenes/m.png" alt="Alternate Text" id="logoAbajo" /></a>
-        </div>--%>
+        </div>
 
         <div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">

@@ -145,10 +145,10 @@
                 font-size: 32px !important;
             }
 
-           
 
 
-           /* REPETIDOR*/
+
+            /* REPETIDOR*/
 
             .responsive {
                 width: 100% !important;
@@ -167,9 +167,9 @@
                 font-size: 40px;
             }
 
-             .imagen {
-                max-height: 461px!important;
-                max-width: 372px!important;
+            .imagen {
+                max-height: 461px !important;
+                max-width: 372px !important;
             }
 
 
@@ -201,10 +201,10 @@
                 font-size: 40px !important;
             }
 
-           
 
 
-           /* FOOTER*/
+
+            /* FOOTER*/
 
 
             h4 {
@@ -220,7 +220,7 @@
             }
 
             .divColor img {
-                    width: 200px!important;
+                width: 200px !important;
             }
         }
     </style>
@@ -247,12 +247,7 @@ Realizamos envíos a todas las provincias de Argentina.
         </div>
     </div>
 
-    <%--BOTON--%>
 
-    <%--  <div style="display: flex; justify-content: center; margin-top: 30px;" class="botonColeccion">
-        <a href="Coleccion.aspx" id="botonRosa" style="font-family: 'Dancing Script'; font-size: 45px; background-color: black; color: #e8ca01!important; border-radius: 49%; padding: 19px;"
-            class="btn">Ver Colección</a>
-    </div>--%>
 
 
     <div style="background-color: #efefef !important;">
@@ -264,39 +259,11 @@ Realizamos envíos a todas las provincias de Argentina.
         </div>
 
 
-
-        <%--  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 55px;">
-        <div style="font-family: Quicksand; font-size: 34px; width: 400px;" id="parrafoAbajo">
-            <p>
-                El estilo de nuestros productos de bijouterie está inspirado en la elegancia atemporal y la innovación moderna, fusionando lo clásico con lo contemporáneo en cada pieza. 
-                Cada accesorio es cuidadosamente diseñado para resaltar la belleza natural y aportar un toque de sofisticación a cualquier ocasión.
-            </p>
-        </div>
-        <div>
-            <img src="Imagenes/zzzz.jpg" alt="Alternate Text" />
-        </div>
-    </div>--%>
-
         <asp:ScriptManager runat="server" />
 
-        <%--  <h1 style="text-align: center; margin: 50px 0px;">Colección</h1>--%>
 
         <asp:UpdatePanel runat="server">
             <ContentTemplate>
-
-
-
-
-                <%-- <asp:DropDownList runat="server" CssClass="form-select desple1" Style="width: 160px;" ID="ddlCampo" AutoPostBack="true"
-                    OnSelectedIndexChanged="ddlCampo_SelectedIndexChanged">
-                    <asp:ListItem Text="Seleccione" disabled="true" />
-                    <asp:ListItem Text="Categoría" />
-                    <asp:ListItem Text="Material" />
-                </asp:DropDownList>
-
-                <asp:DropDownList runat="server" CssClass="form-select dropdown-toggle desple1" ID="ddlCriterio" Style="width: 160px;">
-                    <asp:ListItem Text=" " />
-                </asp:DropDownList>--%>
 
 
                 <div style="display: flex; gap: 20px; flex-direction: column; justify-content: center; align-items: center; margin-bottom: 50px;">
@@ -305,17 +272,6 @@ Realizamos envíos a todas las provincias de Argentina.
                     <asp:TextBox runat="server" ID="txtFiltro" CssClass="form-control tclass" AutoPostBack="true" OnTextChanged="txtFiltro_TextChanged" Style="width: 250px; border: solid 2px #e8ca01;" />
                     <asp:Label CssClass="escriba" Text="- Para volver a ver todos los productos borre la palabra y presione Enter -" runat="server" Style="line-height: 2; font-size: 20px; font-family: Quicksand; font-weight: 600;" />
                 </div>
-                <%--<div>
-                                <a href="FormularioAccesorio.aspx" class="btn botonn" style="background-color: #e2aed5; color: white; font-weight: bolder; font-family: Quicksand;">Agregar</a>
-                            </div>--%>
-
-
-
-                <%--                    <asp:Button Text="Buscar" CssClass="btn desple1 buscar" ID="btnBuscar" runat="server" />
-                    <asp:Button Text="Nueva Búsqueda" CssClass="btn desple1 buscar" ID="btnNuevaBusqueda" runat="server" OnClick="btnNuevaBusqueda_Click" />--%>
-
-
-
 
                 <div style="display: flex; flex-wrap: wrap;">
 
@@ -336,8 +292,6 @@ Realizamos envíos a todas las provincias de Argentina.
                                             CommandArgument='<%#Eval("Id")%>' CommandName="AccesorioId"
                                             OnClick="btnDetalle_Click" runat="server" Style="background-color: black; color: #e8ca01;" />
 
-
-
                                     </div>
                                 </div>
                             </div>
@@ -346,8 +300,6 @@ Realizamos envíos a todas las provincias de Argentina.
                     </asp:Repeater>
 
                 </div>
-
-
 
 
             </ContentTemplate>
@@ -381,6 +333,5 @@ Realizamos envíos a todas las provincias de Argentina.
         </footer>
 
     </div>
-
 
 </asp:Content>
