@@ -72,7 +72,6 @@
     <Content Include="Articulo2.aspx" />
     <Content Include="Articulo3.aspx" />
     <Content Include="Blog.aspx" />
-    <Content Include="Coleccion.aspx" />
     <Content Include="Contacto.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="Detalle.aspx" />
@@ -125,13 +124,6 @@
     </Compile>
     <Compile Include="Blog.aspx.designer.cs">
       <DependentUpon>Blog.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Coleccion.aspx.cs">
-      <DependentUpon>Coleccion.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Coleccion.aspx.designer.cs">
-      <DependentUpon>Coleccion.aspx</DependentUpon>
     </Compile>
     <Compile Include="Contacto.aspx.cs">
       <DependentUpon>Contacto.aspx</DependentUpon>
